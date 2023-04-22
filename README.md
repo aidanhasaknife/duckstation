@@ -68,7 +68,7 @@ To download:
 
 Once downloaded and extracted, you can launch the emulator with `duckstation-qt-x64-ReleaseLTCG.exe`.
 To set up:
-1. Either configure the path to a BIOS image in the settings, or copy one or more PlayStation BIOS images to the bios/ subdirectory. On Windows, by default this will be located in `C:\Users\YOUR_USERNAME\Documents\DuckStation\bios`. If you don't want to use the Documents directory to save the BIOS/memory cards/etc, you can use portable mode. See [User directory](#user-directories).
+1. Either configure the path to a BIOS image in the settings, or copy one or more PlayStation BIOS images to the bios/subdirectory. On Windows, by default this will be located in `%MYDOCUMENTS%\Documents\DuckStation\bios`. If you don't want to use the Documents directory to save the BIOS/memory cards/etc, you can use portable mode. See [User directory](#user-directories).
 2. If using the Qt frontend, add the directories containing your disc images by clicking `Settings->Add Game Directory`.
 2. Select a game from the list, or open a disc image file and enjoy.
 
@@ -180,7 +180,7 @@ An optional [SDL game controller database file](#sdl-game-controller-database) c
 
 This is located in the following places depending on the platform you're using:
 
-- Windows: My Documents\DuckStation
+- Windows: `%MYDOCUMENTS%\DuckStation`
 - Linux: `$XDG_DATA_HOME/duckstation`, or `~/.local/share/duckstation`.
 - macOS: `~/Library/Application Support/DuckStation`.
 
